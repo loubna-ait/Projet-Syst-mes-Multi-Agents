@@ -1,10 +1,10 @@
-# 🏥 Système Médical Multi-Agents - LangGraph
+#  Système Médical Multi-Agents - LangGraph
+**Projet - Réalisé par Loubna Ait Hra**
+**Projet - Pr. Mohamed YOUSSFI**
 
-**Projet académique - Pr. Mohamed YOUSSFI**
+>  Ce système est un exercice académique. Il ne remplace pas une consultation médicale.
 
-> ⚠️ Ce système est un exercice académique. Il ne remplace pas une consultation médicale.
-
-## 🎯 Objectif
+##  Objectif
 
 Système multi-agents basé sur **LangGraph** qui simule un workflow d'orientation clinique :
 1. Patient décrit son problème
@@ -13,7 +13,7 @@ Système multi-agents basé sur **LangGraph** qui simule un workflow d'orientati
 4. **Médecin (Human-in-the-Loop)** valide et propose un traitement
 5. ReportAgent génère le **rapport final**
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 project/
@@ -41,7 +41,7 @@ project/
 └── .env.example
 ```
 
-## 🚀 Installation et Lancement
+##  Installation et Lancement
 
 ### 1. Prérequis
 - Python 3.11+
@@ -100,7 +100,7 @@ cd backend
 langgraph dev
 ```
 
-## 🧪 Test rapide (API)
+##  Test rapide (API)
 
 ```bash
 # Démarrer une consultation
@@ -109,7 +109,7 @@ curl -X POST http://localhost:8000/consultation/start \
   -d '{"patient_info": "J ai de la fièvre depuis 2 jours"}'
 ```
 
-## 📊 Workflow du graphe
+##  Workflow du graphe
 
 ```
 START → Supervisor → DiagnosticAgent (x5 questions) 
