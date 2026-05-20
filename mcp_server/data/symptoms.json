@@ -1,0 +1,11 @@
+{
+    "fièvre": "La fièvre est une élévation de la température corporelle au-dessus de 38°C. Repos et hydratation recommandés. Consulter si > 39.5°C ou si elle persiste plus de 3 jours.",
+    "toux": "La toux peut être sèche ou grasse. Elle accompagne souvent les infections respiratoires. Surveiller si elle s'accompagne de difficulté à respirer.",
+    "maux de tête": "Les céphalées sont fréquentes et souvent bénignes. Repos dans un endroit calme, hydratation. Consulter si brutal ou très intense.",
+    "douleur abdominale": "Les douleurs abdominales ont de nombreuses causes. Surveiller la localisation, l'intensité. Consulter rapidement si très intenses ou accompagnées de vomissements.",
+    "fatigue": "La fatigue peut être due à de nombreux facteurs : manque de sommeil, stress, infection virale. Repos suffisant et bonne hydratation.",
+    "rhume": "Le rhume est une infection virale bénigne. Traitement symptomatique : repos, hydratation, mouchage régulier. Durée : 7-10 jours.",
+    "mal de gorge": "La douleur pharyngée est souvent d'origine virale. Gargarismes à l'eau salée, boissons chaudes. Consulter si fièvre élevée ou difficultés à avaler.",
+    "diarrhée": "Diarrhée aiguë : boire beaucoup, alimentation douce. Consulter si sang dans les selles, forte fièvre ou diarrhée > 3 jours.",
+    "vomissements": "Nausées et vomissements : hydratation fractionnée, repos. Consulter si persistent > 24h ou accompagnés de forte fièvre."
+}
