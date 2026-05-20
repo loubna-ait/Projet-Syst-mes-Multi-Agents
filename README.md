@@ -253,15 +253,15 @@ Voici un aperçu de l'exécution du workflow dans **LangGraph Studio** :
 *L'agent diagnostique interagit avec le patient pour recueillir les informations nécessaires (symptômes, durée, antécédents, traitements en cours).*
 
 ### 2. Synthèse et recommandation intermédiaire
-![Synthèse Diagnostique](images/langgraph_2.png)
+![Photo 2](2.png)
 *Une fois les informations collectées, l'agent génère un résumé diagnostique et propose des recommandations de soins intermédiaires (interim_care).*
 
 ### 3. Validation Médicale (Human-in-the-Loop)
-![Validation Médecin](images/langgraph_3.png)
+![Photo 3](3.png)
 *Le workflow s'interrompt (physician_review) pour permettre à un médecin d'examiner le dossier et de saisir sa décision de traitement (ex: "Repos trois jours").*
 
 ### 4. Rapport Final (Report Agent)
-![Rapport Final](images/langgraph_4.png)
+![Photo 4](4.png)
 *Le Report Agent compile toutes les données (synthèse de l'agent diagnostique et avis du médecin humain) pour générer le Rapport Clinique Final structuré.*
 
 ## Technologies utilisées
