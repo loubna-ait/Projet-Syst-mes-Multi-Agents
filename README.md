@@ -249,7 +249,7 @@ START → Supervisor → DiagnosticAgent (x5 questions)
 Voici un aperçu de l'exécution du workflow dans **LangGraph Studio** :
 
 ### 1. Collecte des symptômes (Diagnostic Agent)
-![Collecte des symptômes](images/langgraph_1.png)
+![Collecte des symptômes](images/1.png)
 *L'agent diagnostique interagit avec le patient pour recueillir les informations nécessaires (symptômes, durée, antécédents, traitements en cours).*
 
 ### 2. Synthèse et recommandation intermédiaire
