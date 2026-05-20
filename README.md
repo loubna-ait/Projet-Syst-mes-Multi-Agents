@@ -132,7 +132,7 @@ Système multi-agents basé sur **LangGraph** qui simule un workflow d'orientati
 4. **Médecin (Human-in-the-Loop)** valide et propose un traitement
 5. ReportAgent génère le **rapport final**
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 project/
@@ -160,7 +160,7 @@ project/
 └── .env.example
 ```
 
-## 🚀 Installation et Lancement
+## Installation et Lancement
 
 ### 1. Prérequis
 - Python 3.11+
@@ -219,7 +219,7 @@ cd backend
 langgraph dev
 ```
 
-## 🧪 Test rapide (API)
+##  Test rapide (API)
 
 ```bash
 # Démarrer une consultation
@@ -228,7 +228,7 @@ curl -X POST http://localhost:8000/consultation/start \
   -d '{"patient_info": "J ai de la fièvre depuis 2 jours"}'
 ```
 
-## 📊 Workflow du graphe
+##  Workflow du graphe
 
 ```
 START → Supervisor → DiagnosticAgent (x5 questions) 
@@ -249,7 +249,7 @@ START → Supervisor → DiagnosticAgent (x5 questions)
 Voici un aperçu de l'exécution du workflow dans **LangGraph Studio** :
 
 ### 1. Collecte des symptômes (Diagnostic Agent)
-![Collecte des symptômes](images/1.png)
+![Photo 1](1.png)
 *L'agent diagnostique interagit avec le patient pour recueillir les informations nécessaires (symptômes, durée, antécédents, traitements en cours).*
 
 ### 2. Synthèse et recommandation intermédiaire
